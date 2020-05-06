@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <script src="https://kit.fontawesome.com/5b914b5cd2.js" crossorigin="anonymous"></script>
+    <script>
+      document.createElement( "picture" );
+    </script>
+    <title>Мастер камня</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <div class="main-nav__wrapper">
+          <a class="page-header__logo">
+            <img class="header__logo-image" src="img/logo.jpg" width="100" height="100" alt="Логотип">
+            <p class="header__logo-text">Мастер Камня</p>
+          </a>
+          <button class="button main-nav__button" href="#">Заказать звонок</button>
+        </div>
+        <div class="main-nav__wrapper">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Качество и гарантия</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="care.html" class="main-nav__link">Уход</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Галерея</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Отзывы</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Доставка и монтаж</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="production.html" class="main-nav__link">Продукция</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Контакты</a>
+          </li>
+        </ul>
+        <a class="main-nav__tel" href="tel:8 800 123 4567">+7 920 015-27-05</a>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">Изделия из натурального и искусственного кварцевого камня</h1>
+      <section class="slider">
+        <ul class="slides__list">
+          <li class="slide__item slide__item--showing" id="slide-1">
+            <h2 class="slide__title"></h2>
+          </li>
+          <li class="slide__item" id="slide-2">
+            <h2 class="slide__title"></h2>
+          </li>
+          <li class="slide__item" id="slide-3">
+            <h2 class="slide__title"></h2>
+          </li>
+          <li class="slide__item" id="slide-4">
+            <h2 class="slide__title"></h2>
+          </li>
+        </ul>
+        <button class="button slide__button" href="#">Рассчитать онлайн</button>
+        <div class="slider__controls">
+          <button class="control__previous">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="control__next">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </section>
+      <section class="order">
+        <img class="order__img" src="img/order.JPG" alt="">
+        <div class="order__wrapper">
+          <h2 class="title order__title">Закажите бесплатную консультацию</h2>
+          <p class="order__text"><sub>*Заказывая консультацию вы соглашаетесь на обработку персональных данных согласно Политики безопасности</sub></p>
+          <form class="order__form">
+            <label class="visually-hidden" for="order__phone">Телефон</label>
+            <input class="order__input" type="tel" name="tel" id="order__phone" placeholder="Введите свой номер" required>
+            <button class="button order__button" type="submit">Заказать</button>
+          </div>
+        </form>
+      </section>
+      <section class="advantages">
+        <div class="materials__wrapper"></div>
+        <h2 class="title advantages__title">Наши преимущества</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item advantages__item--quality">
+            <svg class="advantages__item-icon" width="50" height="50">
+              <use xlink:href="img/sprite/sprite.svg#quality"></use>
+            </svg>
+            <h3 class="advantages__item-title">Высококачественный материал</h3>
+            <p class="advantages__item-text">Мы используем лучший материал на рынке. Весь товар сертефицирован.</p>
+          </li>
+          <li class="advantages__item advantages__item--help">
+            <svg class="advantages__item-icon" width="50" height="50">
+              <use xlink:href="img/sprite/sprite.svg#help"></use>
+            </svg>
+            <h3 class="advantages__item-title">Помощь в выборе</h3>
+            <p class="advantages__item-text">Наши сотрудники помогут определиться в выборе. Мы подберем нужный материал соответсвующий вашему дизайну и бюджету.</p>
+          </li>
+          <li class="advantages__item advantages__item--delivery">
+            <svg class="advantages__item-icon" width="50" height="50">
+              <use xlink:href="img/sprite/sprite.svg#delivery"></use>
+            </svg>
+            <h3 class="advantages__item-title">Быстрая доставка</h3>
+            <p class="advantages__item-text">Доставка займет 7-10 дней после оплаты.</p>
+          </li>
+          <li class="advantages__item advantages__item--toolbox">
+            <svg class="advantages__item-icon" width="50" height="50">
+              <use xlink:href="img/sprite/sprite.svg#toolbox"></use>
+            </svg>
+            <h3 class="advantages__item-title">Монтаж на объекте</h3>
+            <p class="advantages__item-text">К вам приедет опытный специалист и произведет установку в кратчайшие сроки.</p>
+          </li>
+          <li class="advantages__item advantages__item--warranty">
+            <svg class="advantages__item-icon" width="50" height="50">
+              <use xlink:href="img/sprite/sprite.svg#warranty"></use>
+            </svg>
+            <h3 class="advantages__item-title">Гарантия</h3>
+            <p class="advantages__item-text">При заказе и установке нашей фирмой вы получаете ганрантию на 5 лет.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="materials">
+        <div class="material__wrapper">
+          <h2 class="title materials__title">Камни</h2>
+          <ul class="materials__list">
+            <li class="material__item">
+              <a href="quartz.html" class="material__item-link">
+                <img src="img/quartz.jpg" width="130" height="130" alt="Кварцевый агломерат" class="material__item-img">
+                <h3 class="material__item-title">Кварцевый агломерат</h3>
+              </a>
+            </li>
+            <li class="material__item">
+              <a href="marble.html" class="material__item-link">
+                <img src="img/marble.jpg" width="130" height="130" alt="Мрамор" class="material__item-img">
+                <h3 class="material__item-title">Мрамор</h3>
+              </a>
+            </li>
+            <li class="material__item">
+              <a href="granite.html" class="material__item-link">
+                <img src="img/granite.jpg" width="130" height="130" alt="Гранит" class="material__item-img">
+                <h3 class="material__item-title">Гранит</h3>
+              </a>
+            </li>
+            <li class="material__item">
+              <a href="onyx.html" class="material__item-link">
+                <img src="img/onyx.jpg" width="130" height="130" alt="Оникс" class="material__item-img">
+                <h3 class="material__item-title">Оникс</h3>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="gallery">
+        <h2 class="title gallery__title">Галерея работ</h2>
+        <div class="gallery__wrapper">
+          <p class="gallery__arrow gallery__arrow--left">&#8656;</p>
+          <ul class="gallery__photos">
+            <li class="gallery__card">
+              <img class="gallery__img" src="img/card1.JPG" width="373">
+              <h3 class="gallery__card-title">Мойка из камня</h3>
+              <p class="gallery__card-text">Отличное дополнение интерьера. Мойка из натурального камня.</p>
+            </li>
+            <li class="gallery__card">
+              <img class="gallery__img" src="img/card2.JPG" width="373">
+              <h3 class="gallery__card-title">Столешница из мрамора</h3>
+              <p class="gallery__card-text">​Использовался высококачественный мрамор. Размеры и цвет подбирались индивидуально под заказчика.</p>
+            </li>
+            <li class="gallery__card">
+              <img class="gallery__img" src="img/card3.JPG" width="373">
+              <h3 class="gallery__card-title">Акриловый подоконник</h3>
+              <p class="gallery__card-text">Идеально вписывается в дизайн дома. Высокопрочный и наджный. Гарантия 5 лет при установке наими специалистами.</p>
+            </li>
+          <p class="gallery__arrow gallery__arrow--right">&#8658;</p>
+        </div>
+        <a href="#" class="button">Cмотреть другие работы</a>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <a class="page-footer__logo">
+          <img class="page-footer__logo-image" src="img/logo.jpg" width="100" height="100">
+          <p class="page-footer__logo-text">Мастер Камня</p>
+        </a>
+        <ul class="page-footer__list">
+          <li class="page-footer__item"><a href="#">О нас</a></li>
+          <li class="page-footer__item"><a href="#">Способы оплаты</a></li>
+          <li class="page-footer__item"><a href="#">Партнёрам</a></li>
+        </ul>
+        <ul class="page-footer__list-contacts">
+          <li class="page-footer__item page-footer__item--tel">
+            <svg class="contacts__item-icon" width="40" height="40">
+              <use xlink:href="img/sprite/sprite.svg#phone"></use>
+            </svg>
+            <a href="tel:8 800 123 4567">+7 920 015-27-05</a>
+          </li>
+          <li class="page-footer__item page-footer__item--email">
+            <svg class="contacts__item-icon" width="40" height="40">
+              <use xlink:href="img/sprite/sprite.svg#email"></use>
+            </svg>
+            <a href="mailto:master.stone@gmail.com">master.stone@gmail.com</a>
+          </li>
+          <li class="page-footer__item">
+            <svg class="contacts__item-icon" width="40" height="40">
+              <use xlink:href="img/sprite/sprite.svg#instagram"></use>
+            </svg>
+            <a href="#">Мы в Instagram</a>
+          </li>
+        </ul>
+      </div>
+      <p class="page-footer__text">© 2012–2020 ООО «Мастер камня»</p>
+    </footer>
+    <div class="modal">
+      <h2 class="modal__title">Заказать звонок</h2>
+      <form method="post" action="mail.php" class="modal__form">
+        <button class="modal__close" type="button"><span class="visually-hidden">Закрыть</span></button>
+        <div class="modal__form-wrapper">
+          <label for="modal__name">Ваше имя</label>
+          <input class="modal__input" type="text" name="name" id="modal__name" placeholder="Как вас зовут?" required>
+        </div>
+        <div class="modal__form-wrapper">
+          <label for="modal__phone">Ваш номер телефона</label>
+          <input class="modal__input" type="tel" name="tel" id="modal__phone" placeholder="Введите свой номер" required>
+        </div>
+        <button class="button modal__button" type="submit">Заказать</button>
+      </form>
+    </div>
+    <button class="up-button" type="button">↑<span class="visually-hidden">Наверх</span></button>
+    <div class="overlay"></div>
+    <script src="js/script.min.js"></script>
+    <script src="js/slider.min.js"></script>
+    <script src="js/svg4everybody.min.js"></script>
+    <script>svg4everybody();</script>
+  </body>
+</html>
